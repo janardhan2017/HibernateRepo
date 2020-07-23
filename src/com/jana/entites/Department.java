@@ -3,7 +3,6 @@ package com.jana.entites;
 import java.io.Serializable;
 import java.util.Set;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -19,9 +18,6 @@ import com.sun.istack.NotNull;
 @Table(name="pjr_department")
 public class Department implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name="department_no")
